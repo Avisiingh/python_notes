@@ -1,5 +1,4 @@
 ﻿# Functions Notes
-# Functions
 
 Functions are actions (or "verbs") in a program that perform a specific task. They help organize code into reusable blocks.
 
