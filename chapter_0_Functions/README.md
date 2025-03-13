@@ -407,4 +407,15 @@ words = text.split()
 print(words)  # Output: ['hello', 'world']
 
 ```
+# Integer (`int`) in Python  
+
+## What is `int`?  
+`int` represents whole numbers (positive, negative, or zero) in Python.  
+
+### Example  
+```python
+num = 10
+print(type(num))  # Output: <class 'int'>
+
+```
 
