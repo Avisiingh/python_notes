@@ -395,5 +395,16 @@ text = "hello world"
 print(text.title())  # Output: "Hello World"
 
 ```
+# Splitting Strings in Python  
 
+## `.split()` Method  
+Splits a string into a list based on a specified delimiter (default: space).  
+
+### Example  
+```python
+text = "hello world"
+words = text.split()
+print(words)  # Output: ['hello', 'world']
+
+```
 
