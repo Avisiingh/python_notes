@@ -418,4 +418,35 @@ num = 10
 print(type(num))  # Output: <class 'int'>
 
 ```
+# Float in Python
+
+## What is a Float?
+A **float** is a number with a decimal point in Python. Example: `3.14`, `-0.5`, `2.0`.
+
+## Declaring a Float
+```python
+x = 3.14
+y = float(10)  # Converts int to float (10.0)
+```
+
+## Float Operations
+```python
+a, b = 5.5, 2.0
+print(a + b, a - b, a * b, a / b)  # 7.5, 3.5, 11.0, 2.75
+```
+
+## Special Float Values
+```python
+import math
+print(math.inf, -math.inf, math.nan)  # Infinity, -Infinity, NaN
+```
+
+## Handling Precision Issues
+```python
+print(0.1 + 0.2)  # 0.30000000000000004 (not exactly 0.3)
+from decimal import Decimal
+print(Decimal('0.1') + Decimal('0.2'))  # 0.3 (precise)
+
+
+```
 
